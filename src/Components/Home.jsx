@@ -22,7 +22,7 @@ function Home() {
           <h2>Create Your Perfect Resume with AI</h2>
           <p>Build a professional resume in minutes, powered by artificial intelligence.</p>
           <a href="#get-started" className="btn-primary">Get Started</a>
-          <a href="#get-started" className="btn-primary">Find Jobs</a>
+          <a href="https://sujalv787.github.io/findjobs/" className="btn-primary">Find Jobs</a>
           <a href="#get-started" className="btn-primary">Demo Vedio🎥</a>
         </div>
       </section>
