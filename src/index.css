@@ -1,0 +1,101 @@
+/* src/index.css */
+
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa; /* Light gray background */
+  color: #333; /* Dark text for readability */
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Scrollbar style (optional, for aesthetics) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+/* Anchor tags (for links) */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+/* General container padding */
+.container {
+  padding: 20px;
+}
+
+/* Utilities */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+/* Flexbox helper class */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+/* Media queries (optional, for responsiveness) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  
+  .features-section {
+    flex-direction: column;
+  }
+
+  .how-it-works-section ul {
+    text-align: center;
+  }
+}
